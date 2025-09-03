@@ -1,2 +1,1 @@
-# CORDIC_IP
-This is curated set of designs done by me, during my academia
+This repository contains Verilog implementations of CORDIC algorithms for computing trigonometric (sine, cosine), hyperbolic (sinh, cosh), logarithmic, multiplication, and division functions using iterative shift-add operations. Each module is fully pipelined with 16 stages for high-throughput fixed-point calculations. The designs use conditional add/subtract controlled by the sign of intermediate values and precomputed angle tables for micro-rotations. These multiplier-free modules are ideal for FPGA and ASIC implementations requiring efficient hardware arithmetic. Pipeline latency is 16 clock cycles before stable outputs are available.
