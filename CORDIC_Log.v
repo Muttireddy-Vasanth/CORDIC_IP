@@ -1,3 +1,4 @@
+
 //************************************************************
 // CORDIC Logarithm Calculator
 // Performs iterative calculation of logarithm function using CORDIC in hyperbolic mode
